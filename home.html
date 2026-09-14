@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalso's Website</title>
-    <script src="/script.js"></script>
+    <script src="/script.js" defer></script>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/png" href="/Resources/kalso-24x24.png">
 </head>
 <body>
-    <audio autoplay loop>
+    <audio autoplay loop id="bgm">
         <source src="/Resources/boba-date.mp3" type="audio/mp3">
     </audio>
 <header>
     <h1>Kalso</h1>
     <h2>Game Developer &vert; Server Manager &vert; Web Designer</h2>
-    <button class="no-deco" onclick="new Audio('/Resources/slime.mp3').play()"><img src="/Resources/kalso-640x640.gif" alt="Kalso the Slime" title="Kalso the Slime"></button>
+    <button class="no-deco" onclick="playAudio('/Resources/slime.mp3')"><img src="/Resources/kalso-640x640.gif" alt="Kalso the Slime" title="Kalso the Slime"></button>
 </header>
 <nav><b>
     <a class="no-deco" href="#about">About</a>
     <a class="no-deco" href="#project">Projects</a>
     <a class="no-deco" href="#contact">Contact</a>
+    <button class="round" id="bgm-control">❚❚</button>
 </nav></b>
 <section class="card" id="about">
     <h2>About me</h2>

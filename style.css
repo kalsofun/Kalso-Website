@@ -94,6 +94,10 @@ a.button:active {
 button {
     cursor:pointer;
 }
+button.round {
+    border-radius:50%;
+    font-size:0.8em;
+}
 .no-deco {
     background:none;
     color:inherit;
