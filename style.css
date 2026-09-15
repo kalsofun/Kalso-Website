@@ -32,7 +32,7 @@ section.card {
 section.grid-card {
     display:grid;
     grid-template-columns:1fr;
-    gap:5%;
+    gap:3%;
     height:auto;
     overflow:visible;
 }
@@ -45,6 +45,7 @@ section.grid-card section {
     max-width:400px;
     width:100%;
     height:auto;
+    margin:20px 3%;
     padding:10px 30px 30px;
 }
 section img{
